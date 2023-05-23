@@ -1,0 +1,136 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(ScoobyDoo-3ZoX.ttf);
+}
+
+body {
+  font-family: myFirstFont;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: center;
+  margin: bottom 0;
+  padding-bottom: 0%;
+  color: #ff8d00;
+}
+
+h1 {
+  color: #000000;
+  font-size: 2.5rem;
+  text-decoration: wavy;
+}
+
+.border {
+  margin-top: 50px;
+  height: 650px;
+  width: 600px;
+  background-color: #00cfd4;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  border: 2px rgb(0, 0, 0) solid;
+}
+
+.screen {
+  height: 100px;
+  width: 550px;
+  background-color: #00e304d7;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  transform: translateY(20px);
+  border: 2px rgb(0, 0, 0) solid;
+}
+
+.buttons {
+  transform: translateY(65px);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  font-size: 3rem;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#seven,
+#eight,
+#nine,
+#divide,
+#four,
+#five,
+#six,
+#multiply,
+#one,
+#two,
+#three,
+#subtract,
+#zero,
+#AC,
+#add,
+#equals {
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  padding-bottom: 10px;
+  padding-left: 50px;
+  background-color: #00e304;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px rgb(0, 0, 0) solid;
+}
+
+#seven:hover,
+#eight:hover,
+#nine:hover,
+#divide:hover,
+#four:hover,
+#five:hover,
+#six:hover,
+#multiply:hover,
+#one:hover,
+#two:hover,
+#three:hover,
+#subtract:hover,
+#zero:hover,
+#AC:hover,
+#add:hover,
+#equals:hover {
+  color: rgba(0, 0, 0, 0.801);
+  background-color: #19751b73;
+}
+
+button {
+  font-size: 3rem;
+  padding-top: 15%;
+}
+h1 {
+  padding-left: 15px;
+  padding-top: 26px;
+}
+
+#divide,
+#multiply,
+#subtract,
+#AC,
+#add,
+#equals {
+  background-color: #ff8d00;
+}
+
+#divide:hover,
+#multiply:hover,
+#subtract:hover,
+#AC:hover,
+#add:hover,
+#equals:hover {
+  color: rgba(0, 0, 0, 0.801);
+  background-color: #dd800fb2;
+}
